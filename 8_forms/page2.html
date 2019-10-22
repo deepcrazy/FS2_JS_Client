@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Task: 8_forms</title>
+
+    <link type="text/css" rel="stylesheet" href="css/page2.css">
+</head>
+
+<body>
+    <div>
+        <h2>Page 2</h2>
+    </div>
+
+    <div>
+        <h4>Enter the below user details inputs</h4>
+    </div>
+    <div>
+        <form id="formId" onsubmit="formData()">
+            <input type="text" id="fName" name="firstName" placeholder="First Name" required>
+            <input type="text" id="lName" name="lastName" placeholder="Last Name" required>
+            <input type="submit" value="Conitnue">
+        </form>
+
+        <p id="formMsg"></p>
+    </div>
+
+    <button id="page2" onclick="previousPage(this.id)">Previous</button>
+
+    <button id="page2" onclick="nextPage(this.id)">Next</button>
+</body>
+
+<section>
+    <script src="js/myScript.js"></script>
+</section>
+
+</html>
