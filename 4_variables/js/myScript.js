@@ -1,6 +1,6 @@
 try {
     var wordsArray = ['Universities', 'Colleges', 'Schools'];
-    var numArray = [7,5,9];
+    var numArray = [7, 5, 9];
     var listContainer = document.getElementById('listContainer');
     var lists = document.getElementById('list');
 
@@ -10,7 +10,7 @@ try {
         listTag.appendChild(listTagText);
         lists.appendChild(listTag);
     });
-    console.log("Successfully printed the lists of words along with the list of numbers..!!")
+    console.log("Successfully printed the lists of words along with their accompanying numbers from the list..!!")
 } catch (error) {
     console.log("Some error has occured: " + error);
 }
