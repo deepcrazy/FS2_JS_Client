@@ -30,5 +30,5 @@ try {
 
 } catch (error) {
     document.getElementById('workExp').innerHTML = "Error message: " + error;
-    console.log("Some error has occured: " + error);
+    console.log("Some error has occurred: " + error);
 }

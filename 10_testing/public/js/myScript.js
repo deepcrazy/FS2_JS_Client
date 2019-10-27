@@ -26,5 +26,5 @@ try {
         window.location.href = pageToRender;
     }
 } catch (error) {
-    console.log("Some error has occured: " + error);
+    console.log("Some error has occurred: " + error);
 }
